@@ -9,8 +9,8 @@ from django.core.files.base import File
 from django.core.files.storage import Storage
 from django.utils.deconstruct import deconstructible
 from django.utils.encoding import force_text, smart_str, filepath_to_uri, force_bytes
-from django.utils.six.moves.urllib import parse as urlparse
-from django.utils.six import BytesIO
+from six.moves.urllib import parse as urlparse
+from six import BytesIO
 from django.utils.timezone import localtime, is_naive
 
 try:

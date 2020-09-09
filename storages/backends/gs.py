@@ -1,6 +1,6 @@
 from django.core.exceptions import ImproperlyConfigured
 from django.utils.deconstruct import deconstructible
-from django.utils.six import BytesIO
+from six import BytesIO
 
 from storages.backends.s3boto import S3BotoStorage, S3BotoStorageFile
 from storages.utils import setting
